@@ -1,0 +1,18 @@
+{
+  "name": "nav",
+  "version": "1.0.0",
+  "description": "Navigation with D1 database",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "itty-router": "^4.0.13",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.1"
+  }
+}

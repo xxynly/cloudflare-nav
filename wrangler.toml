@@ -1,0 +1,18 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "nav"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nav-db"
+database_id = "12345-4759-7890-8aa0-aaaaa"
+migrations_dir = "migrations"
+
+[build]
+command = ""
+watch_dir = "src"
+
+[site]
+bucket = "./src"
