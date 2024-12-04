@@ -3,6 +3,28 @@
 A modern, responsive navigation site built with Cloudflare Workers and D1 database, featuring an elegant design and a powerful admin dashboard for efficient management.  
 一个基于 Cloudflare Workers 和 D1 数据库构建的现代化响应式导航站点，具有优雅的设计和强大的后台管理功能，旨在提供高效的管理体验。
 
+# 📸 Screenshots
+
+<details>
+<summary>Click to view screenshots</summary>
+![首页](https://github.com/user-attachments/assets/c0e93ec4-8498-470e-a23e-9cdd16a2724c)
+
+![折叠](https://github.com/user-attachments/assets/cced7557-aa44-441e-84b4-657676260471)
+
+![后台1](https://github.com/user-attachments/assets/5ae99ec7-b9cb-41c2-b1e5-71942f312108)
+
+![后台2](https://github.com/user-attachments/assets/acadef89-8c04-4f63-ad19-969104a98db9)
+
+![后台3](https://github.com/user-attachments/assets/64446924-8539-4585-9e8f-e15d97dd9c1b)
+
+
+
+
+
+</details>
+
+
+
 [English](#english) | [中文](#中文)
 
 ## English
@@ -319,7 +341,6 @@ wrangler deploy
 nav/
 ├── src/
 │   ├── index.js      # 主应用入口
-│   └── admin.js      # 管理面板
 ├── migrations/        # 数据库迁移
 ├── schema.sql        # 数据库架构
 └── wrangler.toml     # Cloudflare配置
